@@ -1,5 +1,5 @@
 {% set name = "emoji-extractor" %}
-{% set version = "2.1.2" %}
+{% set version = "16.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/emoji_extractor-{{ version }}.tar.gz
-  sha256: 9a0bab9f8a9d6584247a0eb7165e10e0a0d864c0d3ee3928d52b74414c8865b3
+  sha256: 61bffb73041f2c7f73d5f7baa038e7d01ca44c99932918cea3d6219736c636ea
 
 build:
   noarch: python
@@ -16,10 +16,10 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python
     - pip
   run:
-    - python >=3.6
+    - python
 
 test:
   imports:
@@ -38,4 +38,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - a-d-robertson
+    - alexanderrobertson
