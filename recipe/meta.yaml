@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/emoji_extractor-{{ version }}.tar.gz
-  sha256: <GET_FROM_PYPI>
+  sha256: 68a4e66bca707a46b6d7c53b62e546d1215c0843b4d4adbc76fe25d621d7d28a
 
 build:
   noarch: python
