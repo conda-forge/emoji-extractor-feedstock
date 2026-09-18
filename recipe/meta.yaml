@@ -1,13 +1,13 @@
 {% set name = "emoji-extractor" %}
-{% set version = "17.0.2" %}
+{% set version = "18.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/emoji_extractor-{{ version }}.tar.gz
-  sha256: 68a4e66bca707a46b6d7c53b62e546d1215c0843b4d4adbc76fe25d621d7d28a
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/emoji_extractor-{{ version }}.tar.gz
+  sha256: 955423f9e5c73a6bed499254ccce53c0165284406d267f702b0cb42d2828cbdd
 
 build:
   noarch: python
